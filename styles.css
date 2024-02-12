@@ -14,7 +14,13 @@ body{
 }
 
 .cell{
-   width: 34px;
-   height: 34px;
-   
+   flex: 1 0 calc(100% / 16);
+   aspect-ratio: 1;
+}
+
+.gridsize{
+    margin-bottom: 10px;
+    border radius: 75%;
+    padding: 10px;
+    
 }
